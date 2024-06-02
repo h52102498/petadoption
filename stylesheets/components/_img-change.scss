@@ -1,0 +1,6 @@
+.img-change{
+    &:hover,&:focus{
+        content: url(/images/btn.png);
+        cursor: pointer;
+    }
+}

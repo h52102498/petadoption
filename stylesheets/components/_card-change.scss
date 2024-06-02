@@ -1,0 +1,21 @@
+.card-change:hover{
+    box-shadow: $box-shadow !important;
+    a{
+        color: $warning;
+    }
+}
+.card-change-img-1:hover{
+    img{
+        content: url(/images/dog01-hover-1.png);
+    }
+}
+.card-change-img-2:hover{
+    img{
+        content: url(/images/dog01-hover.png);
+    }
+}
+.card-change-img-3:hover{
+    img{
+        content: url(/images/dog01-hover-2.png);
+    }
+}

@@ -1,0 +1,14 @@
+.design-list:hover,.design-list.active{
+    color: $yellow !important;
+    transition: all .3s ease-in-out;
+}
+.dash-hover {
+    color: transparent;
+    font-family: 'Noto Sans TC', sans-serif;
+    transition: all .3s ease-in-out;
+    &:hover,&.active{
+        color: $yellow;
+        padding: 0 12px;
+        transition: all .3s ease-in-out;
+    }
+}
